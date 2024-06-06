@@ -9,8 +9,8 @@ const Budget = () => {
     } 
   return (
     <div className='alert alert-secondary'>
-        <span>Budget: £{budget}</span>
-        <input type="number" step={10} value={newBudget} onChange={handleBudgetChange} />
+        <span>Budget: ${/* <span className='fw-bold ms-1'>{budget}</span> */}</span>
+        <input className='rounded ps-2 w-50 ms-1 border-0 fw-bold' type="number" step={10} value={newBudget} onChange={handleBudgetChange} />
     </div>
   );
 };

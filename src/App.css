@@ -25,8 +25,16 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #aae8f9;
 }
+
+.table{
+  background-color:lightsalmon ;
+}
+.chg-alctn{
+  background-color: lightskyblue;
+}
+
 
 @keyframes App-logo-spin {
   from {
